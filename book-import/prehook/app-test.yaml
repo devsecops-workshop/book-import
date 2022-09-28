@@ -8,4 +8,4 @@ metadata:
     app.kubernetes.io/name: bookimport
 spec:
   tower_auth_secret: toweraccess
-  job_template_name: aap-test
+  job_template_name: acm-test
