@@ -1,0 +1,11 @@
+---
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: aap-test
+  namespace: book-import
+  labels:
+    app.kubernetes.io/name: bookimport
+spec:
+  tower_auth_secret: toweraccess
+  job_template_name: aap-test
